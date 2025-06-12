@@ -13,6 +13,13 @@ body{
     font-size: 30px;
     font-weight: 400;
 }
+.pricipal{
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    align-items: center;
+}
+
 .container{
     height: 100vh;
     display: grid;
@@ -36,4 +43,22 @@ body{
 }
 .container_caixa{
     margin: 0 5em;
+}
+.secundaria__imagem{
+    margin: 1em 0 2em 0;
+}
+.descricao__titulo{
+    font-weight: 700;
+    font-size: 64px;
+    margin-bottom: 0.1em;
+    color: var(--rosa);
+}
+strong{
+    color: var(--rosa);
+}
+.terceiro_botao{
+    display: inline-block;
+}
+.container_descriçao{
+    padding: 8em;
 }
